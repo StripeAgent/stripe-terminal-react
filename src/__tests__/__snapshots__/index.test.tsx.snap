@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.ts Public API snapshot ensure there are no unexpected changes to our public exports 1`] = `
+Object {
+  "CHANGE_CONNECTION_STATUS": "CHANGE_CONNECTION_STATUS",
+  "CHANGE_OFFLINE_STATUS": undefined,
+  "CHANGE_PAYMENT_STATUS": "CHANGE_PAYMENT_STATUS",
+  "CollectDataType": Object {
+    "MAGSTRIPE": "magstripe",
+    "UNKNOWN": "unknown",
+  },
+  "CommonError": Object {
+    "Canceled": "Canceled",
+    "Failed": "Failed",
+    "Unknown": "Unknown",
+  },
+  "DarkMode": Object {
+    "DARK": "dark",
+    "LIGHT": "light",
+    "SYSTEM": "system",
+  },
+  "FETCH_TOKEN_PROVIDER": "FETCH_TOKEN_PROVIDER",
+  "FINISH_DISCOVERING_READERS": "FINISH_DISCOVERING_READERS",
+  "FINISH_INSTALLING_UPDATE": "FINISH_INSTALLING_UPDATE",
+  "FORWARD_PAYMENT_INTENT": undefined,
+  "FormType": Object {
+    "EMAIL": "email",
+    "NUMERIC": "numeric",
+    "PHONE": "phone",
+    "SELECTION": "selection",
+    "SIGNATURE": "signature",
+    "TEXT": "text",
+  },
+  "PaymentIntent": Object {},
+  "PaymentMethod": Object {},
+  "READER_RECONNECT_FAIL": undefined,
+  "READER_RECONNECT_SUCCEED": undefined,
+  "REPORT_AVAILABLE_UPDATE": "REPORT_AVAILABLE_UPDATE",
+  "REPORT_FORWARDING_ERROR": undefined,
+  "REPORT_UPDATE_PROGRESS": "REPORT_UPDATE_PROGRESS",
+  "REQUEST_READER_DISPLAY_MESSAGE": "REQUEST_READER_DISPLAY_MESSAGE",
+  "REQUEST_READER_INPUT": "REQUEST_READER_INPUT",
+  "Reader": Object {
+    "Android": Object {},
+    "IOS": Object {},
+  },
+  "Refund": Object {
+    "Android": Object {},
+    "IOS": Object {},
+  },
+  "START_INSTALLING_UPDATE": "START_INSTALLING_UPDATE",
+  "START_READER_RECONNECT": undefined,
+  "SelectionButtonStyle": Object {
+    "PRIMARY": "primary",
+    "SECONDARY": "secondary",
+  },
+  "SetupIntent": Object {
+    "Android": Object {},
+    "IOS": Object {},
+  },
+  "StripeTerminalProvider": [Function],
+  "StripeTerminalProviderProps": undefined,
+  "TapZoneIndicator": Object {
+    "ABOVE": "above",
+    "BEHIND": "behind",
+    "BELOW": "below",
+    "DEFAULT": "default",
+    "FRONT": "front",
+  },
+  "ToggleResult": Object {
+    "DISABLED": "disabled",
+    "ENABLED": "enabled",
+    "SKIPPED": "skipped",
+  },
+  "ToggleValue": Object {
+    "DISABLED": "disabled",
+    "ENABLED": "enabled",
+  },
+  "UPDATE_DISCOVERED_READERS": "UPDATE_DISCOVERED_READERS",
+  "UseStripeTerminalProps": undefined,
+  "WithStripeTerminalProps": undefined,
+  "getSdkVersion": [Function],
+  "requestNeededAndroidPermissions": [Function],
+  "useStripeTerminal": [Function],
+  "withStripeTerminal": [Function],
+}
+`;
