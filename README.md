@@ -19,7 +19,7 @@ Stripe Terminal enables you to build your own in-person checkout to accept payme
 
 > Note: The below docs are not yet available and will be released as we near open beta
 
-For more info please visit our official [Twitter](https://x.com/Stripe_AI).
+For more info please visit our official [Twitter](https://x.com/stripe_dev_sol).
 
 ## Requirements
 
